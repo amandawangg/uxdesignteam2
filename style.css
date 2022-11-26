@@ -1,7 +1,37 @@
-.banner img{
-    width: 400px;
-    height:400px;
-   
+body {
+    margin: 0px;
+}
+
+.labelName label{
+    top: px;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00543c;
+    width: 100%;
+}
+
+.label {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    font-family: inter;
+    
+}
+
+.logo {
+    width: 7%;
+}
+
+.USFtitle {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    margin-left: 50px;
 }
 
 .lookupclass h3{
@@ -9,13 +39,13 @@
     width: 428px;
     height: 82px;
     left: -110px;
-    top: 90px;
+    top: 120px;
+    font-family: inter;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 61px;
     text-align: center;
 
     color: #000000;
@@ -29,18 +59,18 @@
     width: 428px;
     height: 82px;
     left: 15px;
-    top: 200px;
+    top: 220px;
 }
 
 .dropdownSubject h4{
     top:300px;
     bottom:1000px;
+    position:relative;
 }
 
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #eee;
   }
   ul.breadcrumb li {
     display: inline;
@@ -60,10 +90,19 @@ ul.breadcrumb {
     text-decoration: underline;
   }
 
-  .advanced p{
+.advanced p {
     position: absolute;
     width: 428px;
     height: 2px;
     top:270px;
+    left:15px
   }
 
+  select {
+    font-size: 15px;
+    width: 30%;
+    padding: .2em 1em;
+    background-color: #D9D9D9;
+    border-radius: .2em;
+    cursor: pointer;
+}

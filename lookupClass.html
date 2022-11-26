@@ -5,9 +5,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="banner" >
-        <!--<img src="usf_logo.png" width=100px> -->
-        <h1> University of San Francisco </h1>
+    <div class="homepage">
+        <div class="title-bar">
+            <img src="usf_logo.png" class="logo">
+            <div class="USFtitle">
+                University of San Francisco
+            </div>
     </div>
 
     <ul class="breadcrumb">
@@ -19,8 +22,11 @@
         <h3> Look Up Classes </h3>
     </div>
 
+    <div class="labelName" >
+        <label for="subject" class="label">Select By Subject:</label>
+    </div>
+  
     <div class="dropdownSubject">
-        <h4>Select by Subject:</h4>
         <select name="cars" id="cars">
             <option value="all">All</option>
             <option value="adverstising">Advertising</option>
@@ -35,7 +41,7 @@
           </select>
     </div>
     <div class="advanced">
-        <p> OR search by Advanced Search</p>
+        <p> OR search by  <a href="advancedSearch.html" style="color:blue">Advanced Search</a></p>
     </div>
   
    
