@@ -18,9 +18,9 @@
         <li><a href="lookupClass.html">Look Up Class</a></li>
         <li><a href="#">Advanced Look Up</a></li>
     </ul>
-    <div class="dropdownAdvanced">
-        <h4>Subject:</h4>
-        <select name="cars" id="cars">
+    <label for="subject" class="subjectName">Subject:</label>
+    <div class="dropdownSubject2">
+        <select name="subject" id="subject">
             <option value="all">All</option>
             <option value="adverstising">Advertising</option>
             <option value="art">Art</option>
@@ -32,51 +32,69 @@
             <option value="computer science">Computer Science</option>
             <option value="dance">Dance</option>
           </select> <br>
-          <label for="crn">Enter CRN: </label>
-          <input type="text" id="crn" name="crn"><br><br>
-          <h4>Course Level:</h4>
-          <select name="cars" id="cars">
-              <option value="all">All</option>
-              <option value="adverstising">Advertising</option>
-              <option value="art">Art</option>
-              <option value="architecture">Architecture</option>
-              <option value="business administration">Business Administration</option>
-              <option value="chemistry">Chemistry</option>
-              <option value="classical studies">Classical Studies</option>
-              <option value="communication studies">Communication Studies</option>
-              <option value="computer science">Computer Science</option>
-              <option value="dance">Dance</option>
-            </select>
-            <h4>Attribute:</h4>
-            <select name="cars" id="cars">
-                <option value="all">All</option>
-                <option value="adverstising">Advertising</option>
-                <option value="art">Art</option>
-                <option value="architecture">Architecture</option>
-                <option value="business administration">Business Administration</option>
-                <option value="chemistry">Chemistry</option>
-                <option value="classical studies">Classical Studies</option>
-                <option value="communication studies">Communication Studies</option>
-                <option value="computer science">Computer Science</option>
-                <option value="dance">Dance</option>
-              </select>
-              <h4>Instructor:</h4>
-            <select name="cars" id="cars">
-                <option value="all">All</option>
-                <option value="adverstising">Advertising</option>
-                <option value="art">Art</option>
-                <option value="architecture">Architecture</option>
-                <option value="business administration">Business Administration</option>
-                <option value="chemistry">Chemistry</option>
-                <option value="classical studies">Classical Studies</option>
-                <option value="communication studies">Communication Studies</option>
-                <option value="computer science">Computer Science</option>
-                <option value="dance">Dance</option>
-              </select>
-              <h4>Days</h4>
-            <select name="days" id="days">
-                <option value="all">All</option>
-                <option value="tr">TR</option>
-                <option value="mwf">MWF</option>
-              </select>
     </div>
+    <br>
+    <div class="crn">
+        <label for="crn">Enter CRN: </label>
+        <input type="text" id="crn" name="crn">
+        <br>
+    </div>
+
+    <label for="course" class="courseLevel">Course Level:</label>
+    <div class="dropdownCourse">
+        <select name="courselevel" id="courselevel">
+              <option value="all">All</option>
+              <option value="undergraduate">Undergraduate</option>
+              <option value="graduate">Graduate</option>
+              <option value="doctoral">Doctoral</option>
+              <option value="law">Law</option>
+        </select>
+    </div>  
+
+    
+    <label for="attribute" class="attributeType">Attribute Type:</label>
+    <div class="dropdownAttribute">
+        <select name="attribute" id="attribute">
+            <option value="all">All</option>
+            <option value="arrupe">Arrupe Immersion</option>
+            <option value="nurisng">Clinical Sites for Nursing</option>
+            <option value="publicspeaking">Core A1 Public Speaking</option>
+            <option value="rhetoric">Core A2 Rhetoric and Comp</option>
+            <option value="math">Core B1 Math or Quant Sci</option>
+            <option value="naturallabsci">Core B2 Natural or Lab Sci</option>
+            <option value="literature">Core C1 Literature</option>
+            <option value="history">Core C2 History</option>
+            <option value="cd">Core CD Cultural Diversity</option>
+            <option value="comm">Core Comm-Engaged Learning</option>
+            <option value="philosophy">Core D1 Philosophy</option>
+            <option value="theology">Core D2 Theology</option>
+            <option value="ethics">Core D3 Ethics</option>
+            <option value="socialscience">Core E Social Sciences</option>
+            <option value="visualarts">Core F Visual and Perf Arts</option>
+            <option value="servicelearning">Core SL Service Learning</option>
+        </select>
+    </div>
+
+    <label for="instructor" class="instructor">Instructor:</label>
+    <div class="dropdownInstructor">
+        <select name="courselevel" id="courselevel">
+              <option value="all">All  </option>
+              <option value="anonymous"> Anonymous</option>
+        </select>
+    </div>  
+
+    <label for="days" class="days">Days:</label>
+    <div class="dropdownDays">
+        <select name="days" id="days">
+              <option value="all">All     </option>
+              <option value="undergraduate">Monday, Wednesday, Friday</option>
+              <option value="graduate">Tuesday, Thursday</option>
+        </select>
+    </div>  
+
+ 
+</body>
+</html>
+ 
+
+
