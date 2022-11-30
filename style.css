@@ -19,7 +19,7 @@ body {
     left: 20px;
     top: 200px;
     font-family: inter;
-    
+
 }
 
 .logo {
@@ -34,7 +34,7 @@ body {
     margin-left: 50px;
 }
 
-.lookupclass h3{
+.lookupclass h3 {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -54,7 +54,7 @@ body {
 
 }
 
-.dropdownSubject1{
+.dropdownSubject1 {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -62,43 +62,47 @@ body {
     top: 220px;
 }
 
-.dropdownSubject h4{
-    top:300px;
-    bottom:1000px;
-    position:relative;
+.dropdownSubject h4 {
+    top: 300px;
+    bottom: 1000px;
+    position: relative;
 }
 
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-  }
-  ul.breadcrumb li {
+}
+
+ul.breadcrumb li {
     display: inline;
     font-size: 18px;
-  }
-  ul.breadcrumb li+li:before {
+}
+
+ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: ">\00a0";
-  }
-  ul.breadcrumb li a {
+}
+
+ul.breadcrumb li a {
     color: #570861;
     text-decoration: none;
-  }
-  ul.breadcrumb li a:hover {
+}
+
+ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
-  }
+}
 
 .advanced p {
     position: absolute;
     width: 428px;
     height: 2px;
-    top:270px;
-    left:15px
-  }
+    top: 270px;
+    left: 15px
+}
 
-  select {
+select {
     font-size: 14px;
     width: 70%;
     padding: .2em 1em;
@@ -106,6 +110,7 @@ ul.breadcrumb {
     border-radius: .2em;
     cursor: pointer;
 }
+
 /* 
 select days{
     font-size: 14px;
@@ -117,7 +122,7 @@ select days{
 } */
 
 /* Aadvanced lookup dropdown page styling */
-.dropdownSubject2{
+.dropdownSubject2 {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -132,7 +137,7 @@ select days{
     font-family: inter;
 }
 
-.crn{
+.crn {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -140,7 +145,7 @@ select days{
     top: 220px;
 }
 
-.dropdownCourse{
+.dropdownCourse {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -148,14 +153,14 @@ select days{
     top: 275px;
 }
 
-.courseLevel{
+.courseLevel {
     position: absolute;
     left: 20px;
     top: 255px;
     font-family: inter;
 }
 
-.dropdownAttribute{
+.dropdownAttribute {
     position: absolute;
     width: 428px;
     height: 82px;
@@ -163,14 +168,14 @@ select days{
     top: 330px;
 }
 
-.attributeType{
+.attributeType {
     position: absolute;
     left: 20px;
     top: 310px;
     font-family: inter;
 }
 
-.dropdownInstructor{
+.dropdownInstructor {
     position: absolute;
     left: 20px;
     top: 390px;
@@ -179,7 +184,7 @@ select days{
 }
 
 
-.instructor{
+.instructor {
     position: absolute;
     left: 20px;
     top: 370px;
@@ -187,16 +192,23 @@ select days{
 }
 
 
-.dropdownDays{
+.dropdownDays {
     position: absolute;
     left: 20px;
     top: 445px;
     font-family: inter;
 }
 
-.days{
+.days {
     position: absolute;
     left: 20px;
     top: 425px;
+    font-family: inter;
+}
+
+.submitButton {
+    position: absolute;
+    left: 20px;
+    top: 485px;
     font-family: inter;
 }

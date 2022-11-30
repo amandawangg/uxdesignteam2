@@ -39,6 +39,7 @@
     color: white;
     font-size: 35px;
     font-weight: 600;
+    height: 300px;
     width: 300px;
     transition: opacity .2s;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
