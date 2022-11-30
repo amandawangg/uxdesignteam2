@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+}
+
+/* .labelName{
+    top: 400px;
+} */
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00543c;
+    width: 100%;
+}
+
+.subject {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    font-family: inter;
+    
+}
+
+.logo {
+    width: 7%;
+}
+
+.USFtitle {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.lookupclass h3{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: -110px;
+    top: 120px;
+    font-family: inter;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
+
+.dropdownSubject1{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: 15px;
+    top: 220px;
+}
+
+.dropdownSubject h4{
+    top:300px;
+    bottom:1000px;
+    position:relative;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #570861;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+.advanced p {
+    position: absolute;
+    width: 428px;
+    height: 2px;
+    top:270px;
+    left:15px
+  }
+
+  select {
+    font-size: 14px;
+    width: 70%;
+    padding: .2em 1em;
+    background-color: #D9D9D9;
+    border-radius: .2em;
+    cursor: pointer;
+}
+/* 
+select days{
+    font-size: 14px;
+    width: 200px;
+    padding: .2em 1em;
+    background-color: #D9D9D9;
+    border-radius: .2em;
+    cursor: pointer;
+} */
+
+/* Aadvanced lookup dropdown page styling */
+.dropdownSubject2{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: 15px;
+    top: 180px;
+}
+
+.subjectName {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    font-family: inter;
+}
+
+.crn{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: 15px;
+    top: 220px;
+}
+
+.dropdownCourse{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: 15px;
+    top: 275px;
+}
+
+.courseLevel{
+    position: absolute;
+    left: 20px;
+    top: 255px;
+    font-family: inter;
+}
+
+.dropdownAttribute{
+    position: absolute;
+    width: 428px;
+    height: 82px;
+    left: 15px;
+    top: 330px;
+}
+
+.attributeType{
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    font-family: inter;
+}
+
+.dropdownInstructor{
+    position: absolute;
+    left: 20px;
+    top: 390px;
+    font-family: inter;
+
+}
+
+
+.instructor{
+    position: absolute;
+    left: 20px;
+    top: 370px;
+    font-family: inter;
+}
+
+
+.dropdownDays{
+    position: absolute;
+    left: 20px;
+    top: 445px;
+    font-family: inter;
+}
+
+.days{
+    position: absolute;
+    left: 20px;
+    top: 425px;
+    font-family: inter;
+}
